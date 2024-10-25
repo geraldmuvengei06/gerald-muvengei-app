@@ -1,13 +1,12 @@
 // src/router/index.js
 
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "@/pages/home.vue";
 import Login from "@/pages/auth/login.vue";
 import Users from "@/pages/users.vue"; // Example protected route
 import { getToken } from "@/services/apiService";
 
 const routes = [
-  { path: "/", name: "Home", component: Home },
+  { path: "/", redirect: { name: "Login" } },
   { path: "/login", name: "Login", component: Login },
   {
     path: "/users",
