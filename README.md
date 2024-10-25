@@ -7,6 +7,12 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 # !! Please consider running npm run dev, I couldn't build a dist because of typescript errors and time limit !!
 
 ## How to run
+```env
+VITE_BASE_URL=https://api.example.com
+VITE_API_URL=https://kcb-boma-yangu-backend-kcb-boma-yangu.apps.dev.aro.kcbgroup.com/api
+VITE_BASIC_TOKEN=the-given-token
+```
+
 ```bash
 npm i
 npm run dev
