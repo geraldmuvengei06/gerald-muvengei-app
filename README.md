@@ -7,6 +7,8 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 # !! Please consider running npm run dev, I couldn't build a dist because of typescript errors and time limit !!
 
 ## How to run
+
+Create a .env and paste these details. Update the VITE_BASIC_TOKEN
 ```env
 VITE_BASE_URL=https://api.example.com
 VITE_API_URL=https://kcb-boma-yangu-backend-kcb-boma-yangu.apps.dev.aro.kcbgroup.com/api
